@@ -1,8 +1,6 @@
 
 # Instruções para Configuração do Projeto
 
-Este guia fornece as etapas para configurar um ambiente virtual, instalar as dependências e rodar o projeto Python com Django e pyserial.
-
 ## 1. Criar um Ambiente Virtual
 
 Antes de instalar as bibliotecas necessárias, crie um ambiente virtual. Isso isola as dependências do projeto das outras instalações Python no sistema.
