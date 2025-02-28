@@ -3,7 +3,7 @@ from .models import WeatherData  # Certifique-se de importar seu modelo
 import serial
 import time
 
-arduino_port = 'COM7'  # Altere para a porta correta do seu Arduino
+arduino_port = '/dev/ttyUSB0'  # Altere para a porta correta do seu Arduino
 baud_rate = 9600
 
 
