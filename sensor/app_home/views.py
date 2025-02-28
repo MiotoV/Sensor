@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import WeatherData  # Certifique-se de importar seu modelo
+from .models import WeatherData  
 import serial
 import time
 
@@ -10,7 +10,7 @@ baud_rate = 9600
 def get_data_from_arduino():
     try:
         ser = serial.Serial(arduino_port, baud_rate, timeout=1)
-        # Aguarda um tempo para que a comunicação seja estabelecida
+        # Aguarda para que a comunicação seja estabelecida
         time.sleep(5)
 
         if ser.in_waiting > 0:
